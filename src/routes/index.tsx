@@ -21,23 +21,6 @@ import cofcoImg2 from "@/assets/cofco 2.jpeg";
 import logoRoboteasy from "@/assets/LOGO_ROBOTEASY_HORIZONTAL_BRANCA (1).png";
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Roboteasy em movimento — Newsletter Interna" },
-      {
-        name: "description",
-        content: "Comunicação interna Roboteasy: visitas de clientes, mídia, entregas e novos contratos.",
-      },
-    ],
-    links: [
-      { rel: "preconnect", href: "https://fonts.googleapis.com" },
-      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
-      {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap",
-      },
-    ],
-  }),
   component: Newsletter,
 });
 
